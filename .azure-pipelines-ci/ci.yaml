@@ -44,7 +44,7 @@ stages:
               pwsh: false
             Windows_Server2022_PowerShell_5_1:
               vmImage: windows-2022
-              pwsh: false
+              pwsh: true
         pool:
           vmImage: $[ variables['vmImage'] ]
         steps:

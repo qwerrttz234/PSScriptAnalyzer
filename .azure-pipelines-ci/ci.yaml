@@ -41,7 +41,7 @@ stages:
           matrix:
             Windows_Server2019_PowerShell_5_1:
               vmImage: windows-2019
-              pwsh: false
+              pwsh: true
             Windows_Server2022_PowerShell_5_1:
               vmImage: windows-2022
               pwsh: true
